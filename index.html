@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128634739-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128634739-2');
+</script>
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Custom Creations</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/ai-club.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<!-- ADDED CSS -->
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 40%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+
+
+
+
+
+</head>
+<body>
+
+<img id="myImg" src="./images/lilMe.jpg" alt="Created by Dundun" height="0">
+<img id="myImg2" src="./images/theTeam.jpg" alt="The Team" height="0">
+<img id="myImg3" src="./images/egg.jpg" alt="egg" height="0">
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</body>
+
+<!-- ADDED CSS -->
+
+
+
+
+<body>
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-fixed-bottom" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1">
+                    <span class="info-bar">Info</span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse"
+              id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="https://officialcustomcreations.shop/">SHOP</a>
+                      
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/officialcustomcreations/?hl=en">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/officialcustomxcreations/">Facebook</a>
+                      
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/officialcustomcreations/">Pinterest</a>
+                        
+                    </li>
+                    <li>
+                        <a href="FAQ_page/index.html">Details & FAQ</a>
+                      
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+        <div class="banner">
+        <img id="gif-2" class="img-responsive logo-banner" src="./images/logo_full.png" onmouseover="this.src='./images/lighter1.png'" onmouseout="this.src='./images/logo_full.png'">
+        
+    </div>
+    <h2 class="banner2" style="color:#000000;">
+      
+        <div id="typed-strings" class = "center">
+                  <p> &nbsp;Hand Crafted Designer Cases</p>
+                  <p> &nbsp;Made to order</p>
+                  <p> &nbsp;With Repurposed leathers</p>
+                  <!-- <p> &nbsp;</p>
+                  <p> &nbsp;Hover over logo for Gif to play</p> -->
+                </div>
+                <span id="typed" style="color:#000000"></span>
+              </h2>
+    
+
+
+<canvas class='connecting-dots'>
+</canvas>
+    
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- typing js -->
+    <script src="js/lib/typed.min.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+
+    <!-- Background -->
+    <script src="js/background.js"></script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Easter Egg -->
+    <script type="text/javascript" src="egg.js/egg.js"></script>
+
+    
+    
+
+</body>
+
+</html>
